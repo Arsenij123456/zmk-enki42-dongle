@@ -4,7 +4,7 @@
 if SHIELD_ENKI42_DONGLE
 
 config ZMK_KEYBOARD_NAME
-	default "enki42 Dongle"
+	default "MRIYA Dongle"
 	
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
