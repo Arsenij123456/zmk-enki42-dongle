@@ -1,4 +1,4 @@
-# ZMK config for corne-like keyboard with dongle
+# ZMK config MRIYA keyboard with dongle
 
 The config allows you to use 3 n!n, one for the dongle, one for the left half, one for the right half. Using a dongle significantly increases battery life.. The dongle can be any device on the nRF52840 (or other supported ZMK controllers). For example, I made a separate branch in this repository where XIAO BLE is used as a dongle. More details on the [slicemk page](https://www.slicemk.com/pages/split-dongle).
 
