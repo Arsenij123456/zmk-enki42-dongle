@@ -91,19 +91,19 @@
 
         default_layer {
             bindings = <
-&mt CLCK RIGHT_BRACKET  &kp Q  &kp W  &kp E        &kp R            &kp T        &kp Y      &kp U                     &kp I            &kp O    &kp P     &mt RWIN LEFT_BRACKET
-&mt TAB GRAVE           &kp A  &kp S  &kp D        &kp F            &kp G        &kp H      &kp J                     &kp K            &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LALT BSLH           &kp Z  &kp X  &kp C        &kp V            &kp B        &kp N      &kp M                     &kp COMMA        &kp DOT  &kp FSLH  &mt RALT MINUS
-                                      &lt 1 LCTRL  &mt LSHFT SPACE  &lt 2 RET    &lt 2 ESC  &mt RIGHT_SHIFT LEFT_WIN  &lt 1 BACKSPACE
+&mt LCTRL RIGHT_BRACKET  &kp Q  &kp W  &kp E        &kp R            &kp T        &kp Y      &kp U                     &kp I            &kp O    &kp P     &mt RWIN LEFT_BRACKET
+&mt TAB GRAVE            &kp A  &kp S  &kp D        &kp F            &kp G        &kp H      &kp J                     &kp K            &kp L    &kp SEMI  &mt RCTRL SQT
+&mt LALT BSLH            &kp Z  &kp X  &kp C        &kp V            &kp B        &kp N      &kp M                     &kp COMMA        &kp DOT  &kp FSLH  &mt RALT MINUS
+                                       &lt 1 LCTRL  &mt LSHFT SPACE  &lt 2 RET    &lt 2 ESC  &mt RIGHT_SHIFT LEFT_WIN  &lt 1 BACKSPACE
             >;
         };
 
         lower_layer {
             bindings = <
-&kp ESCAPE  &none  &kp C_VOLUME_UP    &none        &none                 &tog 0          &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &kp RIGHT_BRACKET
-&kp TAB     &none  &kp C_VOLUME_DOWN  &none        &none                 &tog 3          &bt BT_CLR_ALL  &none         &kp STAR      &kp LPAR      &mt COLON SEMICOLON  &kp MINUS
-&kp LALT    &none  &none              &none        &none                 &kp LEFT_WIN    &kp UP          &none         &none         &kp PERIOD    &mt QUESTION SLASH   &mt RALT MINUS
-                                      &lt 1 LCTRL  &mt LEFT_SHIFT SPACE  &lt 2 ENTER     &kp LEFT        &kp DOWN      &kp RIGHT
+&kp ESCAPE  &bt BT_CLR  &kp C_VOLUME_UP    &none        &none                 &tog 0          &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &kp RIGHT_BRACKET
+&kp TAB     &none       &kp C_VOLUME_DOWN  &none        &none                 &tog 3          &bt BT_CLR_ALL  &none         &kp STAR      &kp LPAR      &mt COLON SEMICOLON  &kp MINUS
+&kp LALT    &none       &none              &none        &none                 &kp LEFT_WIN    &kp UP          &none         &none         &kp PERIOD    &mt QUESTION SLASH   &mt RALT MINUS
+                                           &lt 1 LCTRL  &mt LEFT_SHIFT SPACE  &lt 2 ENTER     &kp LEFT        &kp DOWN      &kp RIGHT
             >;
         };
 
