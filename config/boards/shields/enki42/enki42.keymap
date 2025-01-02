@@ -118,10 +118,10 @@
 
         adjust_layer {
             bindings = <
-&kp ESC       &kp Q  &kp W  &kp E      &kp R           &kp T        &kp NUMBER_1     &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6
-&kp TAB       &kp A  &kp S  &kp D      &kp F           &kp G        &kp H            &kp J              &kp K         &kp L         &kp SEMICOLON  &lt 2 F
-&kp LEFT_ALT  &kp Z  &kp X  &kp C      &kp V           &kp B        &kp N            &kp M              &kp COMMA     &kp PERIOD    &kp SLASH      &tog 0
-                            &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE    &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp LEFT_WIN
+&kp ESC         &kp Q  &kp W  &kp E      &kp R           &kp T        &kp NUMBER_1     &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6
+&kp TAB         &kp A  &kp S  &kp D      &kp F           &kp G        &kp H            &kp J              &kp K         &kp L         &kp SEMICOLON  &lt 2 F
+&lt 1 LEFT_ALT  &kp Z  &kp X  &kp C      &kp V           &kp B        &kp N            &kp M              &kp COMMA     &kp PERIOD    &kp SLASH      &tog 0
+                              &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE    &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp LEFT_WIN
             >;
         };
     };
