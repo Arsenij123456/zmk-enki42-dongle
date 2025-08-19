@@ -10,7 +10,7 @@ This repository has versions for different controllers, switch branches to choos
 
 You can change the name in line
 ```
-CONFIG_ZMK_KEYBOARD_NAME="Enki42"
+CONFIG_ZMK_KEYBOARD_NAME="GBenki42"
 ```
 in file
 ```
